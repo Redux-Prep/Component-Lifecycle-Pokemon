@@ -36,7 +36,7 @@ class App extends React.Component {
   }
 
   componentDidUpdate(prevProps, prevState) {
-    console.log('componentDidUpdate is running')
+    console.log('componentDidUpdate is running', prevState.pokemon, this.state.pokemon)
   }
 
   render() {
